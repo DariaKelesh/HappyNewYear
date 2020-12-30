@@ -1,0 +1,30 @@
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.background {
+    background:url(../img/bg-img.jpg) center center/cover no-repeat;
+    height: 600px;
+}
+
+.all-text {
+    font-size: 80px;
+    color: red;
+    padding: 60px;
+    background-color: rgb(208, 210, 211, 0.3);
+}
+
+#welcomeText {
+    padding: 100px 90px;
+    font-weight: 900;
+}
+
+span {
+    padding-left: 40px;
+}
